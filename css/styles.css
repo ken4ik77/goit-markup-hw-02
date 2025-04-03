@@ -3,32 +3,7 @@
     color: #434455;
     background-color: #FFFFFF
 }
-.body h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2E2F42;
-}
-.body h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px; 
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:#2E2F42;
-}
 
-.body p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
 
 /* heder and navigation */
 .navigation .logo {
@@ -63,6 +38,9 @@
 . .navigation .accent {
     color: #4D5AE5;
 }
+.navigation .accent2 {
+    color: #2e2f42;
+}
 .address {
     font-style: normal
 }
@@ -88,8 +66,8 @@
 }
 .main-section-h{
     font-weight: 700;
-    line-height: 1.07
     font-size: 56px;
+    line-height: 1.07;
     line-height: 60px;
     letter-spacing: 0.02em;
     text-align: center;
@@ -131,6 +109,13 @@
     letter-spacing: 0.02em;
     color: #2e2f42;
 } 
+.advant-l {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 .advant .strategy {
     font-size: 16px;
     line-height: 1.5;
@@ -144,7 +129,7 @@
     color: #434455;
 }
 .ourteam {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 }
 
 .ourteam-h {
@@ -163,6 +148,20 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+.team-list-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.team-list-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* portfolio */
 .portfolio-head {
     font-size: 36px;
     line-height: 1.11;
@@ -172,14 +171,16 @@
     color: #2e2f42;
 }
 .portfolio-head-h {
-    font-size: 16px;
-    line-height: 1.5;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color: x#434455;
+    color: #2e2f42;
 }
 .portfolio-head-p {
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
     color: #434455;
 }
 
