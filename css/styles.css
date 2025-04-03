@@ -34,7 +34,7 @@ body {
 .link:focus{
     color: #404bbf;
 }
-.navigation .accent2 {
+.navigation .accent {
     color: #2e2f42;
 }
 .address {
@@ -192,9 +192,7 @@ body {
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
-.footer .accent2 {
-    color: #f4f4fd
-}
+
 .footer .logo {
     color: #4d5ae5;
     text-decoration: none;
@@ -204,6 +202,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
+}
+.accent2 {
+    color: #f4f4fd
 }
 .footer-p {
     line-height: 1.5;
