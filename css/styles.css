@@ -1,0 +1,104 @@
+.body {
+    font-family: "Roboto", sans-serif ;
+    background-color: white;
+}
+.body h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+.body h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px; 
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2E2F42;
+}
+
+.body p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* heder and navigation */
+.navigation .logo {
+    color: #2E2F42;
+    text-decoration: none;
+
+}
+
+.link {
+    text-decoration: none;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link:hover {
+    color: #404BBF;
+}
+
+. .navigation .accent {
+    color: #4D5AE5;
+}
+.contacts {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; */ 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+.contacts:hover {
+    color: #404BBF;
+} 
+/* main section */
+.main-section {
+    background-color: #2E2F42;
+}
+.main-section h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.button {
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    
+}
+.ourteam {
+    background-color: #E7E9FC;
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+.footer .accent {
+    color: #4D5AE5;
+}
+.footer .logo {
+    color: #F4F4FD;
+    text-decoration: none;
+}
