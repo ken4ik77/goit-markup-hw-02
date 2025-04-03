@@ -37,7 +37,7 @@
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase
+    text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
 
@@ -57,11 +57,14 @@
     color: #404BBF;
 }
 .link:focus{
-    color: ##404bbf;
+    color: #404bbf;
 }
 
 . .navigation .accent {
     color: #4D5AE5;
+}
+.address {
+    font-style: normal
 }
 .contacts {
     font-weight: 400;
@@ -83,7 +86,7 @@
 .main-section {
     background-color: #2E2F42;
 }
-.main-section h1 {
+.main-section-h{
     font-weight: 700;
     line-height: 1.07
     font-size: 56px;
@@ -96,6 +99,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
+    font-size: 16px;
     letter-spacing: 0.04em;
     border-radius: 4px;
     padding: 16px 32px;
@@ -110,6 +114,7 @@
 }
 .button:focus {
     background-color: #404BBF;
+    cursor: pointer;
 }
 /* advsntages */
 .advant {
@@ -119,7 +124,20 @@
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.advant-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+} 
 .advant .strategy {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.strategy-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -136,16 +154,14 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    background-color: #FFFFFF;
 }
 .ourteam-list {
     background-color: #FFFFFF;
-}
-.ourteam-list-test {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 .portfolio-head {
     font-size: 36px;
@@ -161,12 +177,17 @@
     letter-spacing: 0.02em;
     color: x#434455;
 }
-
+.portfolio-head-p {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 
 
 .footer {
     font-family: "Raleway", sans-serif;
+    background-color: #2e2f42;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
@@ -175,6 +196,17 @@
     color: #f4f4fd
 }
 .footer .logo {
-    color: #F4F4FD;
+    color: #4d5ae5;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+.footer-p {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
