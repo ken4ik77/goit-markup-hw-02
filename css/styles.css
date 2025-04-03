@@ -1,4 +1,4 @@
-.body {
+body {
     font-family: "Roboto", sans-serif ;
     color: #434455;
     background-color: #FFFFFF
@@ -34,10 +34,6 @@
 .link:focus{
     color: #404bbf;
 }
-
-. .navigation .accent {
-    color: #4D5AE5;
-}
 .navigation .accent2 {
     color: #2e2f42;
 }
@@ -68,7 +64,6 @@
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    line-height: 60px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -116,11 +111,12 @@
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.advant .strategy {
-    font-size: 16px;
-    line-height: 1.5;
+.strategy {
+    font-weight: 500;
+    font-size: 20px;
+    ine-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 .strategy-p {
     font-size: 16px;
@@ -147,6 +143,9 @@
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+.ourteam-list-test {
+    background-color: #FFFFFF;
 }
 .team-list-h {
     font-weight: 500;
@@ -193,7 +192,7 @@
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
-.footer .accent {
+.footer .accent2 {
     color: #f4f4fd
 }
 .footer .logo {
