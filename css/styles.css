@@ -76,8 +76,6 @@ body {
     letter-spacing: 0.04em;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
-    height: 56px;
     background-color: #4D5AE5;
     color: #FFFFFF;
     
@@ -114,7 +112,7 @@ body {
 .strategy {
     font-weight: 500;
     font-size: 20px;
-    ine-height: 1.2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
